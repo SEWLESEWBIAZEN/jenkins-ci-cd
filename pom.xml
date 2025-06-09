@@ -42,7 +42,7 @@
 						<password>${password}</password>
 						<applicationName>${appName}</applicationName>
 						<replicas>1</replicas>
-						<vCores>0.1</vCores>
+						<vCores>MICRO</vCores>
 						
 					</cloudhub2Deployment>
 				</configuration>
