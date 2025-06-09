@@ -43,15 +43,7 @@
 						<applicationName>${appName}</applicationName>
 						<replicas>1</replicas>
 						<vCores>1</vCores>
-						<deploymentSettings>
-							<http>
-								<inbound>
-									<publicUrl>${publicURL}</publicUrl>
-									<forwardSslSession>false</forwardSslSession>
-									<lastMileSecurity>true</lastMileSecurity>
-								</inbound>
-							</http>
-						</deploymentSettings>
+						
 					</cloudhub2Deployment>
 				</configuration>
 			</plugin>
