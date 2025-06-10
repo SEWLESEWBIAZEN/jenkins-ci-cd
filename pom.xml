@@ -38,9 +38,7 @@
 						<username>${username}</username>
 						<password>${password}</password>
 						<applicationName>${appName}</applicationName>
-						<businessGroup>${business}</businessGroup>
-						<workerType>${vCore}</workerType>
-						<workers>${workers}</workers>
+						<businessGroup>${business}</businessGroup>		
 						<objectStoreV2>true</objectStoreV2>
 						<deploymentTimeout>${deploymentTimeout}</deploymentTimeout>
 					</cloudhub2Deployment>
